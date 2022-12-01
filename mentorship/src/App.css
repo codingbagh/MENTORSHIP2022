@@ -36,3 +36,16 @@
     transform: rotate(360deg);
   }
 }
+
+.mainContainer{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.Container{
+width: 100VW;
+display: flex;
+height: 100%;
+}

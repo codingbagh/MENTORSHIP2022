@@ -9,6 +9,8 @@ import bell from "../Images/bell.png"
 import man from "../Images/man.png"
 import menu2 from "../Images/dots-menu.png"
 import home from "../Images/home.png"
+
+
 function Nav(props) {
   return (
     <div id="navContainer">

@@ -1,0 +1,52 @@
+#Sidebar{
+width: fit-content;
+height: 100%;
+
+align-self: flex-start;
+
+display: flex;
+flex-direction: column;
+}
+
+#Sidebar .itemContainer{
+    display: flex;
+    gap: 15px;
+    cursor: pointer;
+    transition: all 200ms ease-in-out;
+    padding:10px;
+    position: relative;
+    left: -12px;
+    margin: 10px;
+    padding-right: 100px;
+    width: 290px;
+    margin-bottom: -20px;
+    
+    
+
+}
+
+#Sidebar .itemContainer:hover{
+background-color: rgba(222, 219, 219, 0.564);
+border-radius: 15px;
+}
+
+#Sidebar .itemContainer img{
+    width: 28px;
+    height: 28px;
+   
+}
+
+#Sidebar .itemContainer h2{
+    font-weight: 500;
+    font-size: 1em;
+   
+}
+
+.hr{
+    width: 380px;
+    position: relative;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 10px;
+    border-color: rgb(243, 242, 242);
+}

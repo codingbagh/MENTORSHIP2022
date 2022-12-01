@@ -1,17 +1,22 @@
 import Nav from "./Components/Nav/Nav";
-import "./App.css"
+import "./App.css";
+import { useState } from "react";
+import Sidebar from "./Components/Sidebar/Sidebar";
+
+
 
 
 function App() {
 
   return (
-   <>
-  <Nav/>
-  
-    
+    <div className={"mainContainer"}>
+      <Nav/>
+      <div className="Container">
+       <Sidebar/>
+      </div>
 
-   </>
- 
+     
+    </div>
   );
 }
 
