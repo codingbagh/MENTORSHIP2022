@@ -10,9 +10,7 @@ import man from "../Images/man.png"
 import menu2 from "../Images/dots-menu.png"
 import home from "../Images/home.png"
 
- const Expo = ()=>{
-  return(<div><h1>Expo</h1></div>)
-}
+ 
 
 export function Nav(props) {
   return (
@@ -45,4 +43,3 @@ export function Nav(props) {
 }
 
 
-export default Expo;

@@ -1,0 +1,70 @@
+.cardContainer{
+padding: 10px;
+border-radius: 10px;
+background-color: white;
+width: fit-content;
+min-height: 400px;
+box-shadow: 0px 0px 5px 1px rgb(209, 209, 209);
+display: flex;
+flex-direction: column;
+}
+
+.btns{
+    display: flex;
+    gap: 5px;
+  
+}  
+
+
+
+.btns button{
+        border: none;
+        padding: 15px 100px;
+        background-color: transparent;
+        border-radius: 7px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 25px;
+        gap: 9px;
+        cursor: pointer;
+        color: rgb(89, 89, 96);
+        transition: background 300ms ease-in-out;
+    }
+
+    #icons{
+        color: rgb(89, 89, 96);
+        font-size: 25px;
+    }
+
+
+    .btns button:hover{
+        background-color: rgba(228, 226, 226, 0.495);
+        transition: background 300ms ease-in-out;
+    }
+
+    .btns .buttonIsActive{
+        border: none;
+        padding: 15px 100px;
+        background-color: transparent;
+        border-radius: 7px 7px 0px 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 25px;
+        gap: 9px;
+        cursor: pointer;
+        border-bottom: 2px groove rgb(7, 7, 120) ;
+        color: blue;
+    }
+
+    #iconsAcitve{
+        color: rgb(31, 31, 192);
+        font-size: 25px;
+    }
+
+
+    .btns{
+        border-bottom: 1px solid rgb(181, 179, 179);
+      
+    }

@@ -4,6 +4,7 @@ import { useState,useEffect } from "react";
 import Sidebar from "./Components/Sidebar/Sidebar";
 import { useLayoutEffect } from "react";
 import { useRef } from "react";
+import { Card } from "./Components/Cards/Card";
 
 
 
@@ -11,10 +12,7 @@ import { useRef } from "react";
 
 
 function App() {
-  const [isUser,setISUser] = useState(false)
-  const [number,setNumber] = useState(1)
-  const Button = useRef()
- 
+
  
   // alert(number)
 
@@ -26,7 +24,8 @@ useLayoutEffect(()=>console.log("Layout"))
       <Nav/>
       <div className="Container">
        <Sidebar/>
-   
+       <Card/>
+        
    
       </div>
 
