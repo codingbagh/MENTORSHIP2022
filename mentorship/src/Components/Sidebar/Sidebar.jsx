@@ -23,6 +23,10 @@ const Sidebar=(props)=> {
         img:dashboard,
         name:"Professional dashboard"
     }])
+   
+
+
+
 
     return (
         <div id="Sidebar">

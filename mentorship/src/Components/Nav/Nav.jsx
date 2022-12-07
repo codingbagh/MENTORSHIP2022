@@ -10,8 +10,11 @@ import man from "../Images/man.png"
 import menu2 from "../Images/dots-menu.png"
 import home from "../Images/home.png"
 
+ const Expo = ()=>{
+  return(<div><h1>Expo</h1></div>)
+}
 
-function Nav(props) {
+export function Nav(props) {
   return (
     <div id="navContainer">
 
@@ -41,4 +44,5 @@ function Nav(props) {
   );
 }
 
-export default Nav;
+
+export default Expo;

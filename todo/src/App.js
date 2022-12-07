@@ -1,16 +1,33 @@
+import { useState } from 'react';
 import './App.css';
 
-const App=()=> {
+const ChildComponent =(props)=>{
 
+  return(
+    <div>
+      <h1>{props.number}</h1>
+    </div>
+  )
+
+}
+
+const Button = ({setNumber,number})=>{
+  return(
+    <div>
+      <button onClick={()=>setNumber(prev=>prev +5)}>Add</button>
+    </div>
+  )
+}
+
+const App=()=> {
+const [number,setNumber] = useState(2)
+const [number2,setNumber2]=useState(4)
   return (
     <> 
-      <div className="App">
-     <h1>hksksksksk</h1>
-    </div>
-    <div>
-      <h2>hello world</h2>
-    </div>
-    </>
+     <ChildComponent number={number}/>
+      <Button setNumber={setNumber} number={number}/>
+ 
+     </>
    
   );
 }
