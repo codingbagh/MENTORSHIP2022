@@ -1,10 +1,15 @@
 import { Bookmark, VideoCameraBack } from "@mui/icons-material";
-import { useState } from "react";
+
+import { useEffect, useState } from "react";
 import "../../style/card.css";
+import Minicard from "./MiniCard";
 
 export const Card = () => {
     const [click1,setClick1] = useState(true)
     const [click2,setClick2] = useState(false)
+
+   
+//  useEffect(()=>(setClick2(true),setClick1(false)))
   return (
     <div className="cardContainer">
       <div className="btns">
@@ -17,7 +22,7 @@ export const Card = () => {
         </button>
       </div>
 
-      {click1 && <h1>Stories</h1>
+      {click1 && <Minicard/>
 }
  {click2 &&     <h1>Reels</h1>}
     </div>

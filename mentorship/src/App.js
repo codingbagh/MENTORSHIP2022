@@ -17,8 +17,7 @@ function App() {
   // alert(number)
 
   
-  useEffect(()=>console.log("Effect"))
-useLayoutEffect(()=>console.log("Layout"))
+ 
   return (
     <div className={"mainContainer"}>
       <Nav/>

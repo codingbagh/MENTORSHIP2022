@@ -1,0 +1,71 @@
+.minicardContainer{
+width: 150px;
+height: 280px;
+box-shadow: 0px 0px 5px 1px rgba(221, 221, 221, 0.875);
+border-radius: 20px;
+margin-top: 10px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+overflow: hidden;
+transition:background 200ms ease-in-out ;
+cursor: pointer;
+}
+
+.overlay{
+    position: absolute;
+    height: 280px;
+    width: 150px;
+    background-color: rgba(54, 52, 52, 0.336);
+    margin-top: -12em;
+    border-radius: 20px;
+}
+
+.minicardContainer img{
+height: 200px;
+width: 200px;
+zoom:0.9;
+margin-bottom: 30px;
+transition: zoom 600ms ease-in-out;
+
+}
+
+.minicardContainer .img{
+    transition: all 400ms ease-in-out;
+    zoom:0.97;
+    height: 200px;
+width: 200px;
+
+margin-bottom: 30px;
+
+}
+
+#addBack{
+  
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   width: 150px;
+   padding-bottom: 30px;
+   
+  
+    bottom: 279px;
+    box-shadow: 0p 0px 20px 20px;
+   
+    background-color:rgb(255, 255, 255);
+    font-weight: 500;
+    position: absolute;
+}
+
+#add{
+    background-color: rgb(29, 29, 241);
+    color: white;
+    font-weight: 900;
+    font-size: 30px;
+    border-radius: 50%;
+    position: relative;
+    top: -17px;
+    box-shadow: 0px 0px 1px 5px;
+    cursor: pointer;
+}
